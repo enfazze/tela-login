@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background: url("https://picsum.photos/1600/900?random=1")
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #9b9b9b;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 3px 3px 0px #9b9b9b;
+}
+
+.container:hover {
+    border: 2px solid #221f1f;
+    box-shadow: 3px 3px 0px #221f1f;
+}
+
+.container:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: rgba(116, 5, 116, 0.9);
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputContainer input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputContainer input::placeholder {
+    color: #fff;
+}
+
+.inputContainer img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+}
+
+.inputContainer a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.inputContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.inputContainer a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.submitButton {
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;    
+}
+
+.submitButton:hover {
+    background-color: rgb(83, 5, 83);
+}
+
+.registerLink p {
+    font-size: 16;
+    color: #fff;
+    font-weight: 500;
+}
+
+.registerLink {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.registerLink a {
+    font-size: 16;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.registerLink a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
